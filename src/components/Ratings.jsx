@@ -9,6 +9,9 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+
 
 // import {Link} from 'react-router-dom';
 
@@ -21,25 +24,64 @@ const Rating = () => {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+          navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
+          className="mySwiper my-14 md:my-24 w-full md:w-2/3"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
+           <SwiperSlide>
+            <div className='p-8 '>
+              <div className='flex justify-center mb-4'>
+                {[...Array(5)].map((star, index) => (
+                  <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
+                ))}
+              </div>
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              </h4>
+              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='p-8'>
+              <div className='flex justify-center mb-4'>
+                {[...Array(5)].map((star, index) => (
+                  <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
+                ))}
+              </div>
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              </h4>
+              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='p-8'>
+              <div className='flex justify-center mb-4'>
+                {[...Array(5)].map((star, index) => (
+                  <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
+                ))}
+              </div>
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              </h4>
+              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='p-8'>
+              <div className='flex justify-center mb-4'>
+                {[...Array(5)].map((star, index) => (
+                  <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
+                ))}
+              </div>
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              </h4>
+              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+            </div>
+          </SwiperSlide>
         </Swiper>
         </div>
     </div>
