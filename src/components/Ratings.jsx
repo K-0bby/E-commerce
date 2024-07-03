@@ -41,9 +41,9 @@ const Rating = () => {
                   <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
                 ))}
               </div>
-              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”Chic En Vogue Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets Chic En Vogue Apart Is Their Customer-Centric Approach.”
               </h4>
-              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+              <h6 className='mt-4 text-xs md:text-sm uppercase text-white text-center font-montserrat'>-SARAH M., DEVOTED Chic En Vogue FAN</h6>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -53,9 +53,9 @@ const Rating = () => {
                   <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
                 ))}
               </div>
-              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”Chic En Vogue Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets Chic En Vogue Apart Is Their Customer-Centric Approach.”
               </h4>
-              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+              <h6 className='mt-4 text-xs md:text-sm uppercase text-white text-center font-montserrat'>-SARAH M., DEVOTED Chic En Vogue FAN</h6>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -65,9 +65,9 @@ const Rating = () => {
                   <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
                 ))}
               </div>
-              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”Chic En Vogue Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets Chic En Vogue Apart Is Their Customer-Centric Approach.”
               </h4>
-              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+              <h6 className='mt-4 text-xs md:text-sm uppercase text-white text-center font-montserrat'>-SARAH M., DEVOTED Chic En Vogue FAN</h6>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -77,9 +77,9 @@ const Rating = () => {
                   <FontAwesomeIcon key={index} icon={faStar} className='text-yellow-500' />
                 ))}
               </div>
-              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”FemmeWardrobe Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets FemmeWardrobe Apart Is Their Customer-Centric Approach.”
+              <h4 className='text-xl leading-6 capitalize md:text-2xl text-center text-white font-bold font-cormorant italic'>”Chic En Vogue Is My Fashion Sanctuary! The Curated Collection Effortlessly Blends Chic Trends With Timeless Elegance, Making Every Purchase A Delightful Discovery. The Quality Of Their Pieces Is Unmatched, And I Appreciate The Brand's Commitment To Sustainable Fashion. What Truly Sets Chic En Vogue Apart Is Their Customer-Centric Approach.”
               </h4>
-              <h6 className='mt-4 text-xs md:text-sm text-white text-center font-montserrat'>-SARAH M., DEVOTED FEMMEWARDROBE FAN</h6>
+              <h6 className='mt-4 text-xs md:text-sm uppercase text-white text-center font-montserrat'>-SARAH M., DEVOTED Chic En Vogue FAN</h6>
             </div>
           </SwiperSlide>
         </Swiper>

@@ -2,9 +2,9 @@ const imageSlide = [
 
     {
         url: 'images/cart.jpg',
-        title: 'Sustainable Fashion',
-        subtitle: '<span className="text-[#ff7f50]">Fashion</span> with a Conscience!',
-        description: 'Embrace eco-friendly style with our Sustainable Fashion collection, offering ethically sourced materials, sustainable fabrics, and timeless designs for a greener wardrobe.',
+        title: 'Belle Couture',
+        subtitle: '<span className="text-[#ff7f50]">Discover </span> Sustainable Style at Its Best!',
+        description: ' Each piece is crafted with a commitment to sustainability, ensuring a greener wardrobe without compromising on style.',
         link: '/shop',
         linkText: 'View Collection', 
     },

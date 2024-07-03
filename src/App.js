@@ -7,6 +7,7 @@ import Cards from './components/Cards';
 import Parallax from './components/ParallaxSection';
 import Ratings from './components/Ratings';
 import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 
 const brands = [
   {
@@ -175,6 +176,7 @@ const handleSortChange = (option) => {
       </section>
       <Ratings />
       <Newsletter />
+      <Footer />
     </main>      
   );
 }
