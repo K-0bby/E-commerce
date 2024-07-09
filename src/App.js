@@ -8,6 +8,7 @@ import Parallax from './components/ParallaxSection';
 import Ratings from './components/Ratings';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 const brands = [
   {
@@ -100,6 +101,7 @@ const handleSortChange = (option) => {
 
   return (
     <main className='max-w-screen-7xl mx-auto'>
+      <Navbar />
       <section className='h-screen'>
         <BackGroundSlider />
       </section>
@@ -141,12 +143,12 @@ const handleSortChange = (option) => {
       </section>
       <Parallax />     
       <section>
-        {/* Products Section */}
+       
         <div className='mt-8 container min-h-screen px-4 py-5 xl:px-5'>
           <h2 className='title'>New Arrivals</h2>
           <div className='bg-[#ff7f50] w-24 h-[3px] mx-auto -mt-5 mb-8'></div>
 
-          {/* Products */}
+        
           <div>
             <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8'>
               <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap font-montserrat '>
@@ -176,7 +178,7 @@ const handleSortChange = (option) => {
       </section>
       <Ratings />
       <Newsletter />
-      <Footer />
+      <Footer /> 
     </main>      
   );
 }
