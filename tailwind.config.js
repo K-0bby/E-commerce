@@ -17,7 +17,10 @@ module.exports = {
       },
     },
     extend: {
-      backgroundImage: "url('/public/images/banner/parallax.jpg')",
+      // backgroundImage: {
+      //   'parallax':"url('/images/banner/parallax.jpg')",
+      //   'shop-banner':"url('images/blog/banner.webp')",
+      // },
     },
   },
   plugins: [],
