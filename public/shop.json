@@ -1,0 +1,155 @@
+[
+    {
+        "id":1,
+       "title":"Blue-Black T-shirt",
+       "category": "Women",
+       "price": 63.85,
+        "image":"/images/shop/1.jpg",
+        "status": "Best Sellers"
+    },
+    {
+        "id":2,
+       "title":"Nike Sportswear Futura Luxe",
+       "category": "Unisex",
+       "price": 130.00,
+       "image":"/images/shop/2.jpg",
+       "status": "Best Sellers"
+    },
+    {
+        "id":3,
+       "title":"Geometric print Scarf",
+       "category": "Unisex",
+       "price": 53.00,
+       "image":"/images/products/image3.png",
+       "status": "Best Sellers"
+    },
+    {
+        "id":4,
+       "title":"Side Bag",
+       "category": "Men",
+       "price": 63.85,
+       "image":"/images/shop/3.jpg",
+       "status": "New Arrivals"
+    },
+    {
+        "id":5,
+       "title":"Basic Dress Green",
+       "category": "Women",
+       "price": 236.00,
+       "image":"/images/products/image5.png",
+       "status": "New Arrivals"
+    },
+    {
+        "id":6,
+       "title":"Nike Air Zoom Pegasus",
+       "category": "Unisex",
+       "price": 198.00,
+       "image":"/images/products/image6.png",
+       "status": "Best Sellers"
+    },
+    {
+        "id":7,
+       "title":"Nike Repel Miler",
+       "category": "Men",
+       "price": 120.50,
+       "image":"/images/products/image7.png",
+       "status": "Best Sellers"
+    },
+    {
+        "id":8,
+       "title":"Glasses",
+       "category": "Men",
+       "price": 50.00,
+       "image":"/images/accessories/image8.png",
+       "status": "New Arrivals"
+    },
+    {
+        "id":9,
+       "title":"Black Leather Watch",
+       "category": "Men",
+       "price": 360.00,
+       "image":"/images/accessories/2.jpg",
+       "status": "Best Sellers"
+    },
+    {
+        "id":10,
+       "title":"Beenie",
+       "category": "Unisex",
+       "price": 60.00,
+       "image":"/images/accessories/15.jpg",
+       "status": "New Arrivals"
+    },
+    {
+        "id":11,
+       "title":"Cowboy Hat",
+       "category": "Men",
+       "price": 100.00,
+       "image":"/images/accessories/11.jpg",
+       "status": "Best Sellers"
+    },
+    {
+        "id":12,
+       "title":"T-shirt",
+       "category": "Men",
+       "price": 100.00,
+       "image":"/images/shop/1.jpg",
+       "status": "New Arrivals"
+    },
+    {
+        "id": 13,
+        "title": "Brown Timberland",
+        "category": "Unisex",
+        "price": 49.99,
+        "image": "/images/shop/14.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 14,
+        "title": "Beenie",
+        "category": "Unisex",
+        "price": 59.99,
+        "image": "/images/shop/15.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 15,
+        "title": "Purple Blank T-Shirt",
+        "category": "Unisex",
+        "price": 89.99,
+        "image": "/images/shop/16.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 16,
+        "title": "Track Suit Jacket",
+        "category": "Women",
+        "price": 129.99,
+        "image": "/images/shop/17.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 17,
+        "title": "Yellow Joker Cap",
+        "category": "Unisex",
+        "price": 19.99,
+        "image": "/images/shop/18.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 18,
+        "title": "Black Hoodie",
+        "category": "Men",
+        "price": 34.99,
+        "image": "/images/shop/19.jpg",
+        "status": "Best Sellers"
+    },
+    {
+        "id": 19,
+        "title": "Orange overall coat",
+        "category": "Women",
+        "price": 34.99,
+        "image": "/images/shop/20.jpg",
+        "status": "New Arrivals"
+    }
+
+]
