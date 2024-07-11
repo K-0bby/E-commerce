@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
     return (   
       <footer>
           {/* footer top */}
-        <div className="max-w-screen-2xl container mx-auto xl:px-28 px-4">
+        <div className="max-w-screen-2xl container mx-auto xl:px-28 px-10">
           <div className="mt-20 mb-10 flex flex-col md:flex-row items-start justify-between gap-8">
             {/* company info */}
             <div className="md:w-[300px]">
@@ -60,12 +60,9 @@ const currentYear = new Date().getFullYear();
                 <Link to="/" className="text-sm text-gray-400 block hover:text-orange-500">
                   Track Your Order
                 </Link>
-                <Link to="/" className="text-sm text-gray-400 block hover:text-orange-500">
+                {/* <Link to="/" className="text-sm text-gray-400 block hover:text-orange-500">
                   Product Care & Repair
-                </Link>
-                <Link to="/" className="text-sm text-gray-400 block hover:text-orange-500">
-                  Book an Appointment
-                </Link>
+                </Link> */}
                 <Link to="/" className="text-sm  text-gray-400 block hover:text-orange-500">
                   Shipping & Returns
                 </Link>

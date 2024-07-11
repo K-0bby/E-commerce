@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 import Shop from './pages/Shop';
+import About from './pages/About';
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,11 @@ const router = createBrowserRouter([
   {
     path: "Shop",
     element: <Shop />
-  }
+  },
+  {
+    path: "About",
+    element: <About />
+  },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

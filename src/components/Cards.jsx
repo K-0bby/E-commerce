@@ -11,11 +11,11 @@ const Cards = ({filteredItems}) => {
                         <img src={item.image} alt="products"  className='mx-auto w-full md:h-[400px] hover:scale-105 transition-all duration-300 object-cover'/>
                     </Link>
                     <div className='mt-4 px-4'>
-                        <h4 className='text-base font-semibold mb-2 font-montserrat '>{item.title}</h4>
+                        <h4 className='text-sm font-semibold mb-2 font-montserrat '>{item.title}</h4>
 
                         <div className='flex justify-between items-center'>
-                            <p className='text-black/50 font-montserrat '>{item.category}</p>
-                            <p className='font-bold text-gray-400 font-montserrat '>${item.price}</p>
+                            <p className='text-black/50 text-xs font-montserrat '>{item.category}</p>
+                            <p className='font-bold text-xs text-gray-400 font-montserrat '>${item.price}</p>
                         </div>
                     </div>
                 </div>

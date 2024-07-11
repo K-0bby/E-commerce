@@ -115,7 +115,7 @@ const handleSortChange = (option) => {
           </div>
       </section>
       <section className='mx-auto'>
-        <div className='mt-8 flex flex-col md:flex-row items-center gap-4 px-4 py-10 xl:px-5'>
+        <div className='mt-8 flex flex-col md:flex-row items-center gap-4 px-4 py-10 xl:px-28'>
           <h5 className='text-black text-center text-xl md:-rotate-90  md:p-2 font-semibold py-6 inline-flex italic font-cormorant'>Explore New & Popular Styles</h5>
           <div className='bg-[#ff7f50] w-24 h-[3px] -mt-6 mb-3 md:hidden'></div>
           <div>
@@ -144,7 +144,7 @@ const handleSortChange = (option) => {
       <Parallax />     
       <section>
        
-        <div className='mt-8 container min-h-screen px-4 py-5 xl:px-5'>
+        <div className='mt-8 container min-h-screen px-4 py-5 xl:px-28'>
           <h2 className='title'>New Arrivals</h2>
           <div className='bg-[#ff7f50] w-24 h-[3px] mx-auto -mt-5 mb-8'></div>
 

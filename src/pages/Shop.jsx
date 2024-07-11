@@ -76,10 +76,11 @@ const Shop = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat', 
+          objectFit: 'cover'
         }}
       >
         <div className='w-full h-full'>
-          <div className="absolute inset-0 bg-black bg-opacity-55 flex flex-col items-center justify-center text-center p-4">
+          <div className="absolute inset-0 bg-black bg-opacity-45 flex flex-col items-center justify-center text-center p-4">
             <h1 className="text-white text-7xl font-bold mt-28 mb-4 font-cormorant italic">Shop</h1>
             <p className="text-gray-200 text-sm w-2/3 mb-4 font-montserrat">Discover our latest collection</p>
           </div>
@@ -90,7 +91,7 @@ const Shop = () => {
       <h2 className='title'>Latest Collection</h2>
       <div className='bg-[#ff7f50] w-24 h-[3px] mx-auto -mt-5 mb-8'></div>
 
-      <div className='container'>
+      <div className='container xl:px-28'>
         <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8'>
           <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap font-montserrat '>
             <button onClick={showAllProducts}>All Products</button>
@@ -116,6 +117,7 @@ const Shop = () => {
         <Cards filteredItems={filteredItems} />
       </div>
       <div>
+      <hr className='w-10/12 mx-auto my-10'/>
         <Footer />
       </div>
     </div>

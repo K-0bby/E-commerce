@@ -34,7 +34,7 @@ const BackGroundSlider = () => {
                 backgroundRepeat: 'no-repeat',
               }}
             >
-              <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center p-4">
+              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center p-4">
                 <h6 className="text-white text-sm uppercase mb-2 font-montserrat">{slide.title}</h6>
                 <h1 className="text-white text-7xl font-bold mb-4 font-cormorant italic" dangerouslySetInnerHTML={{ __html: slide.subtitle }}></h1>
                 <p className="text-gray-200 text-sm w-2/3 mb-4 font-montserrat">{slide.description}</p>
