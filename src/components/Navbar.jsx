@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { FaBars, FaSearch, FaShoppingBag, FaTimes, FaUser } from "react-icons/fa";
+import { FaBars, FaTimes,} from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
+import { ShoppingCart, Search, User} from 'lucide-react'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,12 +56,12 @@ const Navbar = () => {
             ))}
           </ul>
             <div className="hidden lg:flex items-center gap-6 font-montserrat">
-                <FaSearch className=" w-4 h-4 cursor-pointer" />
+                <Search className=" w-4 h-4 cursor-pointer" />
                 <Link to="/" className="flex items-center gap-3">
-                <FaUser className="w-4 h-4" />
+                <User className="w-4 h-4" />
                 </Link>
                 <Link to="/" className="flex items-center gap-3">
-                <FaShoppingBag className="w-4 h-4" />
+                <ShoppingCart className="w-4 h-4" />
                 </Link>
             </div>
         </div>

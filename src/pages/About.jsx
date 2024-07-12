@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import {Link} from 'react-router-dom';
+import FeatureCard from '../components/FeatureCard';
 
 const About = () => {
   return (
@@ -34,6 +35,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <FeatureCard />
       
       <div className='relative h-[700px] xl:px-28 px-4 my-20 bg-black'
       style={{

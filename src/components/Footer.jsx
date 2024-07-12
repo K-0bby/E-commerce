@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { FaFacebookF } from "react-icons/fa6";
-import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa6";
+// import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { Facebook, Instagram, Twitter, Linkedin} from 'lucide-react'
 const Footer = () => {
 const currentYear = new Date().getFullYear();
     return (   
@@ -20,11 +21,17 @@ const currentYear = new Date().getFullYear();
               <p className="my-6 text-black/65 font-montserrat">
               Explore our stylish and contemporary collections, curated to offer you the finest in haute couture. 
               </p>
-              <div className="flex items-center gap-6">
+              {/* <div className="flex items-center gap-6">
                 <FaFacebookF className="w-5 h-5 cursor-pointer hover:text-orange-500" />
                 <FaTwitter className="w-5 h-5 cursor-pointer hover:text-orange-500" />
                 <FaLinkedinIn className="w-5 h-5 cursor-pointer hover:text-orange-500" />
                 <FaInstagram className="w-5 h-5 cursor-pointer hover:text-orange-500" />
+              </div> */}
+              <div className="flex items-center gap-6">
+                <Facebook className="w-5 h-5 cursor-pointer hover:text-orange-500" />
+                <Twitter className="w-5 h-5 cursor-pointer hover:text-orange-500" />
+                <Linkedin className="w-5 h-5 cursor-pointer hover:text-orange-500" />
+                <Instagram className="w-5 h-5 cursor-pointer hover:text-orange-500" />
               </div>
             </div>
   
