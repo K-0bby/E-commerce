@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 
-
-
 const ContactForm = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -18,7 +16,7 @@ const ContactForm = () => {
         console.log('Form Submitted:', formData )
     }
   return (
-    <div className='max-w-md'>
+    <div className='max-w-full'>
         <form onSubmit={handleSubmit}>
         <div className="mb-4 font-montserrat">
           <input
@@ -27,7 +25,7 @@ const ContactForm = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="border w-full py-2 px-3 text-gray-700 leading-tight outline-none"
+            className="border w-full md:w-[550px] py-2 px-3 text-gray-700 leading-tight outline-none"
             placeholder="Name"
             required
           />
@@ -39,7 +37,7 @@ const ContactForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className=" border w-full py-2 px-3 text-gray-700 leading-tight outline-none "
+            className=" border w-full md:w-[550px] py-2 px-3 text-gray-700 leading-tight outline-none "
             placeholder="Email"
             required
           />
@@ -50,7 +48,7 @@ const ContactForm = () => {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="border w-full h-[200px] py-2 px-3 text-gray-700 leading-tight outline-none"
+            className="border w-full md:w-[550px] h-[200px] py-2 px-3 text-gray-700 leading-tight outline-none"
             placeholder="Message"
             required
           />
