@@ -1,30 +1,36 @@
 import React, { useState, useEffect } from "react";
-import { FaBars, FaTimes,} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
-import { ShoppingCart, Search, User} from 'lucide-react'
+import { ShoppingCart, Search, User } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const toggleSearch = () => {
+    setIsSearchOpen(!isSearchOpen);
+  };
+
+
   const handleScroll = () => {
     if (window.scrollY > 50) {
-        setIsScrolled(true);
+      setIsScrolled(true);
     } else {
-        setIsScrolled(false);
+      setIsScrolled(false);
     }
   };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
-        window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, [])
+  }, []);
 
   const navItems = [
     { title: "Home", path: "/" },
@@ -35,8 +41,8 @@ const Navbar = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 px-6 xl:px-24 transition-all duration-300 ${
-        isScrolled ? 'bg-white text-black shadow-md' : 'bg-transparent text-white'
-      }`}>
+      isScrolled ? 'bg-white text-black shadow-md' : 'bg-transparent text-white'
+    }`}>
       <nav className="flex justify-between items-center container md:py-2 pt-6 pb-3">
         <Link to="/" className="">
           <h2 className="font-bold text-3xl tracking-[3px] font-cormorant italic">Chic</h2>
@@ -55,15 +61,16 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-            <div className="hidden lg:flex items-center gap-6 font-montserrat">
-                <Search className=" w-4 h-4 cursor-pointer" />
-                <Link to="/" className="flex items-center gap-3">
-                <User className="w-4 h-4" />
-                </Link>
-                <Link to="/" className="flex items-center gap-3">
-                <ShoppingCart className="w-4 h-4" />
-                </Link>
-            </div>
+          <div className="hidden lg:flex items-center gap-6 font-montserrat">
+            <Search className="w-4 h-4 cursor-pointer" onClick={toggleSearch} />
+
+            <Link to="/" className="flex items-center gap-3">
+              <User className="w-4 h-4" />
+            </Link>
+            <Link to="/" className="flex items-center gap-3">
+              <ShoppingCart className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
 
         <div className="lg:hidden">
@@ -73,9 +80,9 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile menu items */}
-      <div>
-        <ul className={`bg-black text-white text-center px-10 py-10 ${isMenuOpen ? "" : "hidden"}`}>
+      {/* Mobile sidebar menu */}
+      <div className={`fixed top-0 left-0 h-full w-64 bg-black text-white transition-transform duration-300 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+        <ul className="text-center p-10 flex flex-col gap-4">
           {navItems.map(({ title, path }) => (
             <li key={title} className="hover:text-orange-500 my-3 cursor-pointer">
               <Link to={path} onClick={toggleMenu}>
