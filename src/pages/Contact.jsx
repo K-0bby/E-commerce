@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
+import { Link } from 'react-router-dom';
 // import { Facebook, Instagram, Twitter} from 'lucide-react'
 // import { FaFacebookF } from "react-icons/fa6";
 // import { FaInstagram, FaTwitter } from "react-icons/fa"
@@ -17,7 +18,7 @@ const info = [
   },
   {
     title: 'Address',
-    description: 'Accra Ghana'
+    description: 'Accra, Ghana'
   },
   // {
   //   title: 'Follow Us', 
@@ -66,7 +67,12 @@ const Contact = () => {
             </ul>
         </div>
       </div>
-      <hr />
+      <div>
+        <div className='py-4'>
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Baatsonaa,%20Accra,%20Ghana+(Chic%20En%20Vogue)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><Link to="https://www.gps.ie/">gps devices</Link></iframe>
+        </div>
+      </div>
+      <hr className='w-10/12 mx-auto my-10'/>
       <Footer />
     </div>
   )
