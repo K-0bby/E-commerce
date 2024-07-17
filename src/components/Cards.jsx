@@ -7,7 +7,7 @@ const Cards = ({filteredItems}) => {
         {
             filteredItems.slice(0, 8).map((item) => (
                 <div key={item.id}>
-                    <Link to={`/shop/${item.id}`}>
+                    <Link to={`/Product/${item.id}`}>
                         <img src={item.image} alt="products"  className='mx-auto w-full md:h-[400px] hover:scale-105 transition-all duration-300 object-cover'/>
                     </Link>
                     <div className='mt-4 px-4'>
