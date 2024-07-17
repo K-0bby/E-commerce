@@ -40,7 +40,7 @@ const Contact = () => {
       >
         <div className='w-full h-full'>
           <div className="absolute inset-0 bg-black bg-opacity-45 flex flex-col items-center justify-center text-center p-4">
-            <h1 className="text-white text-7xl font-bold mt-28 mb-4 font-cormorant italic">Contact Us</h1>
+            <h1 className="text-white text-5xl font-bold mt-28 mb-4 font-cormorant italic">Contact Us</h1>
             {/* <p className="text-gray-200 text-sm w-2/3 mb-4 font-montserrat">Discover our latest collection</p> */}
           </div>
         </div>
@@ -48,17 +48,18 @@ const Contact = () => {
       
       <div className='container mx-auto py-16 px-8 xl:px-28 text-center flex flex-col justify-center items-center mt-10'>
         <h6 className='uppercase font-montserrat text-xs font-semibold tracking-[2px] mb-5'>Get in Touch</h6>
-        <h4 className='font-cormorant italic capitalize font-bold text-3xl  md:w-1/2 mb-1'>We Value The Connection With Our Community & Customers And Are Here To Assist In Any Way We Can. Feel Free To Reach Out Through The Following Channels:</h4>
+        <h4 className='font-cormorant italic capitalize font-bold text-3xl text-center md:w-1/2 mb-1'>We Value The Connection With Our Community & Customers And Are Here To Assist In Any Way We Can. Feel Free To Reach Out Through The Following Channels:</h4>
       </div>
-      <div className='py-16 px-8 xl:px-28 text-center grid grid-cols md:grid-cols-2 justify-between gap-20'>
+      <div className='py-16 px-8 xl:px-28 mx-auto grid grid-cols md:grid-cols-2 gap-20'>
         <ContactForm />
         <div>
-          <ul className="flex flex-col gap-10">
+          <ul className="flex flex-col xl:grid xl:grid-cols-2 gap-10">
               {info.map((item, index)=> {
               return <li key={index} className="flex items-center gap-6 text-left">
               <div className="flex-1">
                 <p className="text-gray-400 text-xs uppercase font-montserrat">{item.title}</p>
-                <h3 className="text-xl font-cormorant italic">{item.description}</h3>
+                <h3 className="text-xl font-cormorant italic pb-1">{item.description}</h3>
+                <hr className='py-1'/>
               </div>
               </li>
               })}

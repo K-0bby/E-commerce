@@ -19,7 +19,7 @@ const About = () => {
       >
         <div className='w-full h-full'>
           <div className="absolute inset-0 bg-black bg-opacity-45 flex flex-col items-center justify-center text-center p-4">
-            <h1 className="text-white text-7xl font-bold mt-28 mb-4 font-cormorant italic">About Us</h1>
+            <h1 className="text-white text-5xl font-bold mt-28 mb-4 font-cormorant italic">About Us</h1>
             {/* <p className="text-gray-200 text-sm w-2/3 mb-4 font-montserrat">Discover our latest collection</p> */}
           </div>
         </div>
