@@ -67,8 +67,9 @@ const Navbar = () => {
             <Link to="/" className="flex items-center gap-3">
               <User className="w-4 h-4" />
             </Link>
-            <Link to="/" className="flex items-center gap-3">
+            <Link to="/" className="flex items-center gap-3 relative">
               <ShoppingCart className="w-4 h-4" />
+              <span className="absolute top-2/4 left-1/2 bg-orange-400 text-white text-xs w-5 h-5 rounded-full flex justify-center items-center">0</span>
             </Link>
           </div>
         </div>

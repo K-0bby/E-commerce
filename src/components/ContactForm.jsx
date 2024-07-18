@@ -33,7 +33,7 @@ const ContactForm = () => {
             type="email"
             id="email"
             name="email"
-            value={formData.name}
+            value={formData.email}
             onChange={handleChange}
             className='border outline-none font-montserrat py-2 px-2'
             placeholder="Email"
