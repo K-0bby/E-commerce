@@ -38,8 +38,8 @@ const BackGroundSlider = () => {
                 <h6 className="text-white text-sm uppercase mb-2 font-montserrat">{slide.title}</h6>
                 <h1 className="text-white text-5xl font-bold mb-4 font-cormorant italic" dangerouslySetInnerHTML={{ __html: slide.subtitle }}></h1>
                 <p className="text-gray-200 text-sm w-2/3 mb-4 font-montserrat">{slide.description}</p>
-                <Link to={slide.link} className='bg-transparent border border-[#ff7f50] text-white px-7 py-3 mt-4 uppercase rounded-sm text-sm'>
-                  <span className="text-[#ff7f50] font-montserrat">{slide.linkText}</span>
+                <Link to={slide.link} className='bg-transparent border border-[#ff7f50] px-7 py-3 mt-4 uppercase rounded-sm text-sm text-[#ff7f50] hover:bg-[#ff7f50] hover:text-white font-montserrat'>
+                  {slide.linkText}
                 </Link>
               </div>
             </div>

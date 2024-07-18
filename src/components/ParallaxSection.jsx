@@ -10,7 +10,7 @@ const ParallaxSection = () => {
             <div className='md:w-1/2 my-10'>
                 <h4 className='text-gray-400 uppercase font-bold mt-20 font-montserrat '>Mid season sale</h4>
                 <h2 className='text-white text-5xl font-bold mt-2 capitalize mb-6 font-cormorant italic'>Summer Collection Up To 20% Discount</h2>
-                <Link to='/shop' className='bg-transparent border border-[#ff7f50] text-white px-7 py-3 uppercase rounded-sm text-sm font-montserrat '><span class="text-[#ff7f50]">View Collection</span></Link>
+                <Link to='/shop' className='bg-transparent border border-[#ff7f50] px-7 py-3 uppercase rounded-sm text-sm font-montserrat hover:bg-[#ff7f50] text-[#ff7f50] hover:text-white'>View Collection</Link>
             </div>
             <div className='md:w-1/2'></div>
         </div>

@@ -89,7 +89,7 @@ const About = () => {
                   <h2 className='text-white text-5xl font-bold mt-2 capitalize mb-3 font-cormorant italic'>
                   Elevate Your Wardrobe, Embrace Timeless Style!</h2>
                   <p className="text-gray-100 font-medium font-montserrat mb-10 text-sm text-left">Explore our collections today and experience the joy of fashion. Shop now for the epitome of chic sophistication!</p>
-                  <Link to='/shop' className='bg-transparent border border-[#ff7f50] text-white px-7 py-3 uppercase rounded-sm text-sm font-montserrat '><span class="text-[#ff7f50]">View Collection</span></Link>
+                  <Link to='/shop' className='bg-transparent border border-[#ff7f50] text-[#ff7f50] hover:bg-[#ff7f50] hover:text-white px-7 py-3 uppercase rounded-sm text-sm font-montserrat'>View Collection</Link>
               </div>
           </div>
       </div>

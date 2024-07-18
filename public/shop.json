@@ -1,9 +1,9 @@
 [
     {
         "id":1,
-       "title":"Blue-Black T-shirt",
+       "title":"Women Off Shoulder Mini Summer Dress",
        "category": "Women",
-       "price": 63.85,
+       "price": 23.85,
         "image":"/images/shop/1.jpg",
         "status": "Best Sellers"
     },
@@ -48,14 +48,6 @@
        "status": "Best Sellers"
     },
     {
-        "id":7,
-       "title":"Nike Repel Miler",
-       "category": "Men",
-       "price": 120.50,
-       "image":"/images/products/image7.png",
-       "status": "Best Sellers"
-    },
-    {
         "id":8,
        "title":"Glasses",
        "category": "Men",
@@ -82,18 +74,10 @@
     {
         "id":11,
        "title":"Cowboy Hat",
-       "category": "Men",
+       "category": "Unisex",
        "price": 100.00,
        "image":"/images/accessories/11.jpg",
        "status": "Best Sellers"
-    },
-    {
-        "id":12,
-       "title":"T-shirt",
-       "category": "Men",
-       "price": 100.00,
-       "image":"/images/shop/1.jpg",
-       "status": "New Arrivals"
     },
     {
         "id": 13,
@@ -150,6 +134,85 @@
         "price": 34.99,
         "image": "/images/shop/20.jpg",
         "status": "New Arrivals"
+    },
+    {
+        "id": 20,
+        "title": "Mens Casual Slim Fit",
+        "category": "Men",
+        "price": 20.99,
+        "image": "/images/shop/29.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 21,
+        "title": "Mens Cotton Jacket",
+        "category": "Men",
+        "price": 22.99,
+        "image": "/images/shop/28.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 22,
+        "title": "Silver Dragon Bracelet",
+        "category": "Unisex",
+        "price": 25.99,
+        "image": "/images/shop/27.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 23,
+        "title": "Fiallraven Bag",
+        "category": "Unisex",
+        "price": 40.99,
+        "image": "/images/shop/30.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 31,
+        "title": "Summer Black Dress",
+        "category": "Women",
+        "price": 16.99,
+        "image": "/images/shop/31.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 32,
+        "title": "Zipper Front Split Hem Denim Dress",
+        "category": "Women",
+        "price": 10.99,
+        "image": "/images/shop/32.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 33,
+        "title": "Split Thigh Tube Denim Dress",
+        "category": "Women",
+        "price": 11.99,
+        "image": "/images/shop/33.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 34,
+        "title": "Pocket Geometric Print Black Belted Ankle Length Jumpsuit",
+        "category": "Women",
+        "price": 15.99,
+        "image": "/images/shop/34.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 35,
+        "title": "Mens Hawaiin Beach Shirt",
+        "category": "Men",
+        "price": 9.99,
+        "image": "/images/shop/35.jpg",
+        "status": "New Arrivals"
+    },
+    {
+        "id": 36,
+        "title": "Mens Polo Golf Shirt",
+        "category": "Men",
+        "price": 9.99,
+        "image": "/images/shop/36.jpg",
+        "status": "New Arrivals"
     }
-
 ]

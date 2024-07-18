@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaShoppingCart, FaStar } from "react-icons/fa";
 import { useParams, Link } from "react-router-dom";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 
 const demoText = {
@@ -18,6 +18,7 @@ const demoText = {
 };
 
 const ShopProduct = () => {
+
     const {id} = useParams()
     const [products, setProducts] = useState([]);
     useEffect(() => {
