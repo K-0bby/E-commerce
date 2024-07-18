@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaFilter } from 'react-icons/fa'
-import Cards from '../components/Cards';
+import ShopCard from '../components/ShopCard';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
@@ -114,7 +114,7 @@ const Shop = () => {
             </select>
           </div>
         </div>
-        <Cards filteredItems={filteredItems} />
+        <ShopCard filteredItems={filteredItems} />
       </div>
       <div>
       <hr className='w-10/12 mx-auto my-10'/>

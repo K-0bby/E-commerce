@@ -7,6 +7,7 @@ import Shop from './pages/Shop';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Product from './pages/Product';
+import ShopProduct from './pages/ShopProducts';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "Product/:id",
     element: <Product />
+  },
+  {
+    path: "ShopProduct/:id",
+    element: <ShopProduct />
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
