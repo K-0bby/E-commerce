@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaArrowAltCircleRight, FaStar } from "react-icons/fa";
+import { FaShoppingCart, FaStar } from "react-icons/fa";
 import { useParams, Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
@@ -107,8 +107,8 @@ const ShopProduct = () => {
                         className="flex justify-center items-center gap-2 w-full py-3 px-4 bg-orange-400 text-white text-md font-bold border border-orange-400 rounded-sm ease-in-out duration-150 shadow-slate-600 hover:bg-white hover:text-orange-400 lg:m-0 md:px-6"
                         title="Confirm Order"
                         >
-                        <span className="font-montserrat">Confirm Order</span>
-                        <FaArrowAltCircleRight />
+                        <span className="font-montserrat">Add To Cart</span>
+                        <FaShoppingCart />
                         </button>
                     </div>
                     </div>
